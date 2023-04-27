@@ -1,0 +1,89 @@
+/* * {
+    border-color: red;
+    border-style: solid;
+} */
+
+body {
+    background-image: url("./static/mountain.jpg");
+    background-size: cover;
+    font-family: 'Questrial', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; 
+}
+
+.navbar-brand {
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    padding-right: 45px;
+}
+
+#navbar-link {
+    text-decoration: none;
+}
+
+#navbar-link:hover {
+    font-weight: bold;
+}
+
+.main-landing-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11%;
+    gap: 100px;
+}
+
+.main-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    color: rgba(255, 255, 255, 0.643)
+}
+
+.main-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20%;
+    font-size: 20px;
+    height: auto;
+    color:rgba(0, 0, 0, 0.778);
+}
+
+.contact {
+  width: 300px;
+  height: 100px;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+
+.contact-info {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-header {
+    text-decoration: underline;
+    font-weight: bold;
+}
